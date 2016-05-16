@@ -1,0 +1,32 @@
+{
+  "name": "property-tree-merge",
+  "description": "Tree merge for trees of property-wrapped objects",
+  "license": "MIT",
+  "version": "0.0.1",
+  "author": "Gustaf Räntilä <g.rantila@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/grantila/node-property.git"
+  },
+  "scripts": {
+    "test": "node_modules/.bin/mocha"
+  },
+  "pre-commit": [
+    "test"
+  ],
+  "keywords": [
+    "property",
+    "tree",
+    "merge",
+    "getter",
+    "setter"
+  ],
+  "dependencies": {
+    "property": "3.x"
+  },
+  "devDependencies": {
+    "chai": "^3.5",
+    "mocha": "^2.4",
+    "pre-commit": "^1.1"
+  }
+}
